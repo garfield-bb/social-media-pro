@@ -82,12 +82,15 @@ cp -r social-media-pro ~/.claude/skills/
 
 #### TUZI 图片生成 API（推荐）
 
+**TUZI 支持多模型调用**，兼容 OpenAI 接口，可使用 Nano Banana、DALL-E 等多个图片生成模型。
+
 - **功能名称**: TUZI 图片生成
 - **服务类型**: 图片生成
 - **API Key**: `sk-xxx...`
 - **Endpoint URL**: `https://api.tu-zi.com/v1`
 - **是否默认**: 是（勾选）
 - **配置状态**: 启用
+- **注册地址**: [https://api.tu-zi.com/register?aff=n6X4](https://api.tu-zi.com/register?aff=n6X4)
 
 #### Hot News API（可选，用于热点推荐）
 
@@ -208,9 +211,16 @@ Skill 生成内容 (AI + 人设)
 
 ### 3. 如何获取 TUZI API Key?
 
-1. 访问 [TUZI](https://api.tu-zi.com/)
-2. 注册账号
+**TUZI 是一个支持多模型的图片生成平台**，兼容 OpenAI 接口格式，可以调用包括 Nano Banana 在内的多个图片生成模型。
+
+1. 访问 [TUZI 注册页面](https://api.tu-zi.com/register?aff=n6X4)（推荐链接）
+2. 注册账号并登录
 3. 在控制台获取 API Key
+4. 支持的模型：
+   - `gemini-3-pro-image-preview` (推荐)
+   - `dall-e-3`
+   - `dall-e-2`
+   - Nano Banana 系列模型
 
 ### 4. 图片生成失败怎么办?
 
@@ -247,8 +257,26 @@ Skill 生成内容 (AI + 人设)
 ### 商业服务
 - [Tavily Search API](https://www.tavily.com/) - 关键词搜索
 - [明道云 HAP](https://www.mingdao.com/) - 数据管理平台
-- [TUZI API](https://api.tu-zi.com/) - 图片生成（推荐）
+- [TUZI API](https://api.tu-zi.com/register?aff=n6X4) - 图片生成平台（推荐，支持 Nano Banana 等多模型）
 - [火山引擎即梦](https://www.volcengine.com/docs/6791/1209632) - 图片生成
+
+## 免责声明
+
+**本项目仅供学习和技术交流使用。**
+
+1. **知识分享**: 本 Skill 旨在展示社交媒体自动化运营的技术实现方案，帮助开发者学习和理解相关技术。
+
+2. **API 平台选择**: 文档中提到的所有 API 服务（Tavily、TUZI、火山引擎即梦、Hot News API 等）仅为技术方案示例，用户可以根据自己的需求选择任何符合要求的 API 服务。
+
+3. **使用责任**:
+   - 用户需自行评估并承担使用本 Skill 的风险
+   - 请遵守各社交媒体平台的使用条款和社区规范
+   - 确保生成的内容符合法律法规和平台政策
+   - 使用任何第三方 API 服务前，请仔细阅读其服务条款
+
+4. **无担保声明**: 本项目按"现状"提供，不提供任何明示或暗示的保证，包括但不限于适销性、特定用途的适用性等。
+
+5. **推广链接**: 文档中的推广链接仅为方便用户注册使用，不构成任何投资建议或服务推荐。
 
 ## 许可证
 

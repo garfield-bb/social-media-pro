@@ -345,12 +345,19 @@ content = generate_content(
 
 **API 地址**: `https://api.tu-zi.com/v1`
 
-**特点**: OpenAI 兼容接口，支持多个模型
+**注册地址**: [https://api.tu-zi.com/register?aff=n6X4](https://api.tu-zi.com/register?aff=n6X4)
+
+**特点**:
+- OpenAI 兼容接口，使用简单
+- 支持多个图片生成模型
+- 可调用 Nano Banana、DALL-E 等主流模型
+- 统一的 API 格式，方便切换模型
 
 **支持的模型**:
-- `gemini-3-pro-image-preview`
+- `gemini-3-pro-image-preview` (推荐)
 - `dall-e-3`
 - `dall-e-2`
+- Nano Banana 系列模型
 
 **配置示例**:
 
@@ -773,5 +780,9 @@ mcp_hap_update_record(
 - [Tavily Search API](https://www.tavily.com/)
 - [明道云 HAP](https://www.mingdao.com/)
 - [Playwright MCP (GitHub)](https://github.com/microsoft/playwright-mcp)
-- [TUZI API 文档](https://api.tu-zi.com/)
+- [TUZI API](https://api.tu-zi.com/register?aff=n6X4) - 图片生成平台（支持 Nano Banana 等多模型）
 - [火山引擎即梦 API 文档](https://www.volcengine.com/docs/6791/1209632)
+
+---
+
+**免责声明**: 本文档仅供技术学习和参考使用。文中提到的所有 API 服务仅为技术方案示例，用户可根据实际需求选择任何符合要求的 API 服务。使用任何第三方服务前，请仔细阅读其服务条款，并自行承担使用风险。推广链接仅为方便用户注册使用，不构成任何投资建议或服务推荐。
